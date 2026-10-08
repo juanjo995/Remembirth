@@ -15,6 +15,14 @@
 
 std::multimap<int, std::string> lines;
 
+inline bool localtime_portable(const std::time_t* t, std::tm* out) {
+#ifdef _WIN32
+    return localtime_s(out, t) == 0;     // Windows: (tm*, time_t*), devuelve errno_t
+#else
+    return localtime_r(t, out) != nullptr; // POSIX: (time_t*, tm*), devuelve tm*
+#endif
+}
+
 std::vector<std::string> split(std::string s, char delimiter)
 {
     std::vector<std::string> result;
@@ -45,7 +53,7 @@ void processFile(const std::string& path)
     std::time_t time = std::chrono::system_clock::to_time_t(now);
 
     std::tm date;
-    localtime_r(&time, &date);
+    localtime_portable(&time, &date);
 
     int day = date.tm_mday;
     int month = date.tm_mon + 1;
