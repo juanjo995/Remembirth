@@ -103,14 +103,14 @@ void processFile(const std::string& path)
 		}
 		
 		if(daysRemaining == 0) {
-			line += "Today is the birthday of ";
+			line += "Today ";
 		} else if(daysRemaining == 1) {
-			line += "In 1 day will be the birthday of ";
+			line += "In 1 day ";
 		} else {
-			line += "In " + std::to_string(daysRemaining) + " days will be the birthday of ";
+			line += "In " + std::to_string(daysRemaining) + " days ";
 		}
 		
-		line += name + " (" + std::to_string(nDay) + "/" + std::to_string(nMonth) + "/" + std::to_string(nYear) + ")\n";
+		line += name + " will turn " + std::to_string(yo) + ", (" + std::to_string(nDay) + "/" + std::to_string(nMonth) + "/" + std::to_string(nYear) + ")\n\n";
 		
 		lines.insert({daysRemaining, line});
     }
