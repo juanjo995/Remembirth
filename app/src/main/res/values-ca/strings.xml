@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Tria el teu idioma</string>
+    <string name="language_selection_subtitle">Selecciona l’idioma que vols fer servir a Remembirth.</string>
+    <string name="continue_button">Continua</string>
+    <string name="add_person_button">Afegeix una persona</string>
+    <string name="name_label">Nom</string>
+    <string name="birth_date_label">Data de naixement</string>
+    <string name="ok_button">D’acord</string>
+    <string name="cancel_button">Cancel·la</string>
+    <string name="more_options">Més opcions</string>
+    <string name="menu_add">Afegeix</string>
+    <string name="menu_edit">Edita</string>
+    <string name="menu_delete">Elimina</string>
+    <string name="menu_change_language">Canvia l’idioma</string>
+    <string name="menu_options">Opcions</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">El del sistema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="add_person_title">Afegeix una persona</string>
+    <string name="edit_person">Edita la persona</string>
+    <string name="back">Enrere</string>
+    <string name="delete_confirm">Vols eliminar %1$s?</string>
+    <string name="delete_person">Elimina una persona</string>
+    <string name="notification_channel_name">Propers aniversaris</string>
+    <string name="notification_channel_description">Avisos quan falten 10 dies o menys per a un aniversari</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[D’aquí a %1$s <b>%2$s</b> fa %3$s]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">Demà</font></b> <b>%2$s</b> fa %3$s]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">Avui</font></b> <b>%2$s</b> fa %3$s]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> dia]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b> dies]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> dies]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> any]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b> anys]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> anys]]></item>
+    </plurals>
+</resources>

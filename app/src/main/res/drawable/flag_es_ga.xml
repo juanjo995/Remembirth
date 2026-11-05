@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bandera de circle-flags (https://github.com/HatScripts/circle-flags), licencia MIT -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group>
+        <clip-path android:pathData="M256 0 a256 256 0 1 1 0 512 a256 256 0 1 1 0 -512z" />
+        <path android:fillColor="#eee" android:pathData="M0 63 63 0 h449 v449 l-63 63 H0z" />
+        <path android:fillColor="#338af3" android:pathData="M0 0 v63 l449 449 h63 v-63 L63 0 H0z" />
+        <path android:fillColor="#d80027" android:pathData="m211 181 46 16.4 44 -16.4 v-38 l-18 9 -27 -27 -27 27 -18 -9z" />
+        <path android:fillColor="#0052b4" android:pathData="M186 181 v103 a70 70 0 0 0 140 0 V181z" />
+    </group>
+</vector>

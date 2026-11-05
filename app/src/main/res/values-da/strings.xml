@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Vælg dit sprog</string>
+    <string name="language_selection_subtitle">Vælg det sprog, du vil bruge i Remembirth.</string>
+    <string name="continue_button">Fortsæt</string>
+    <string name="add_person_button">Tilføj person</string>
+    <string name="name_label">Navn</string>
+    <string name="birth_date_label">Fødselsdato</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Annuller</string>
+    <string name="more_options">Flere muligheder</string>
+    <string name="menu_add">Tilføj</string>
+    <string name="menu_edit">Rediger</string>
+    <string name="menu_delete">Slet</string>
+    <string name="menu_change_language">Skift sprog</string>
+    <string name="menu_options">Indstillinger</string>
+    <string name="settings_language">Sprog</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Systemstandard</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
+    <string name="add_person_title">Tilføj person</string>
+    <string name="edit_person">Rediger person</string>
+    <string name="back">Tilbage</string>
+    <string name="delete_confirm">Slet %1$s?</string>
+    <string name="delete_person">Slet person</string>
+    <string name="notification_channel_name">Kommende fødselsdage</string>
+    <string name="notification_channel_description">Påmindelser, når der er 10 dage eller mindre til en fødselsdag</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[Om %1$s fylder <b>%2$s</b> %3$s]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">I morgen</font></b> fylder <b>%2$s</b> %3$s]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">I dag</font></b> fylder <b>%2$s</b> %3$s]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> dag]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> dage]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> år]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> år]]></item>
+    </plurals>
+</resources>

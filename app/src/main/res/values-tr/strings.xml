@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Dilinizi seçin</string>
+    <string name="language_selection_subtitle">Remembirth’te kullanmak istediğiniz dili seçin.</string>
+    <string name="continue_button">Devam</string>
+    <string name="add_person_button">Kişi ekle</string>
+    <string name="name_label">Ad</string>
+    <string name="birth_date_label">Doğum tarihi</string>
+    <string name="ok_button">Tamam</string>
+    <string name="cancel_button">İptal</string>
+    <string name="more_options">Diğer seçenekler</string>
+    <string name="menu_add">Ekle</string>
+    <string name="menu_edit">Düzenle</string>
+    <string name="menu_delete">Sil</string>
+    <string name="menu_change_language">Dili değiştir</string>
+    <string name="menu_options">Seçenekler</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Sistem varsayılanı</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="add_person_title">Kişi ekle</string>
+    <string name="edit_person">Kişiyi düzenle</string>
+    <string name="back">Geri</string>
+    <string name="delete_confirm">%1$s silinsin mi?</string>
+    <string name="delete_person">Kişi sil</string>
+    <string name="notification_channel_name">Yaklaşan doğum günleri</string>
+    <string name="notification_channel_description">Bir doğum gününe 10 gün veya daha az kaldığında hatırlatıcılar</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[<b>%2$s</b> %1$s sonra %3$s girecek]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">Yarın</font></b> <b>%2$s</b> %3$s girecek]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">Bugün</font></b> <b>%2$s</b> %3$s giriyor]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> gün]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> gün]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> yaşına]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> yaşına]]></item>
+    </plurals>
+</resources>

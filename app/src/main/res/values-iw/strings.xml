@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">בחרו שפה</string>
+    <string name="language_selection_subtitle">בחרו את השפה שבה תרצו להשתמש ב-Remembirth.</string>
+    <string name="continue_button">המשך</string>
+    <string name="add_person_button">הוספת אדם</string>
+    <string name="name_label">שם</string>
+    <string name="birth_date_label">תאריך לידה</string>
+    <string name="ok_button">אישור</string>
+    <string name="cancel_button">ביטול</string>
+    <string name="more_options">אפשרויות נוספות</string>
+    <string name="menu_add">הוספה</string>
+    <string name="menu_edit">עריכה</string>
+    <string name="menu_delete">מחיקה</string>
+    <string name="menu_change_language">שינוי שפה</string>
+    <string name="menu_options">אפשרויות</string>
+    <string name="settings_language">שפה</string>
+    <string name="settings_theme">ערכת נושא</string>
+    <string name="theme_system">ברירת המחדל של המערכת</string>
+    <string name="theme_light">בהירה</string>
+    <string name="theme_dark">כהה</string>
+    <string name="add_person_title">הוספת אדם</string>
+    <string name="edit_person">עריכת אדם</string>
+    <string name="back">חזרה</string>
+    <string name="delete_confirm">למחוק את %1$s?</string>
+    <string name="delete_person">מחיקת אדם</string>
+    <string name="notification_channel_name">ימי הולדת קרובים</string>
+    <string name="notification_channel_description">תזכורות כשנותרו 10 ימים או פחות ליום הולדת</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[בעוד %1$s: יום ההולדת ה-%3$s של <b>%2$s</b>]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">מחר</font></b>: יום ההולדת ה-%3$s של <b>%2$s</b>]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">היום</font></b>: יום ההולדת ה-%3$s של <b>%2$s</b>]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> יום]]></item>
+        <item quantity="two"><![CDATA[<b>%d</b> ימים]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b> ימים]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> ימים]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b>]]></item>
+        <item quantity="two"><![CDATA[<b>%d</b>]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b>]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b>]]></item>
+    </plurals>
+</resources>

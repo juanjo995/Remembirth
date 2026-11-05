@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Válassz nyelvet</string>
+    <string name="language_selection_subtitle">Válaszd ki, milyen nyelven szeretnéd használni a Remembirth alkalmazást.</string>
+    <string name="continue_button">Tovább</string>
+    <string name="add_person_button">Személy hozzáadása</string>
+    <string name="name_label">Név</string>
+    <string name="birth_date_label">Születési dátum</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Mégse</string>
+    <string name="more_options">További lehetőségek</string>
+    <string name="menu_add">Hozzáadás</string>
+    <string name="menu_edit">Szerkesztés</string>
+    <string name="menu_delete">Törlés</string>
+    <string name="menu_change_language">Nyelv módosítása</string>
+    <string name="menu_options">Beállítások</string>
+    <string name="settings_language">Nyelv</string>
+    <string name="settings_theme">Téma</string>
+    <string name="theme_system">Rendszer alapértelmezése</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_dark">Sötét</string>
+    <string name="add_person_title">Személy hozzáadása</string>
+    <string name="edit_person">Személy szerkesztése</string>
+    <string name="back">Vissza</string>
+    <string name="delete_confirm">Törlöd ezt: %1$s?</string>
+    <string name="delete_person">Személy törlése</string>
+    <string name="notification_channel_name">Közelgő születésnapok</string>
+    <string name="notification_channel_description">Emlékeztetők, ha egy születésnapig 10 nap vagy kevesebb van hátra</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[<b>%2$s</b> %1$s múlva %3$s lesz]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">Holnap</font></b> <b>%2$s</b> %3$s lesz]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">Ma</font></b> <b>%2$s</b> %3$s lett]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> nap]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> nap]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> éves]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> éves]]></item>
+    </plurals>
+</resources>

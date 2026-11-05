@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Виберіть мову</string>
+    <string name="language_selection_subtitle">Виберіть мову, якою хочете користуватися в Remembirth.</string>
+    <string name="continue_button">Продовжити</string>
+    <string name="add_person_button">Додати людину</string>
+    <string name="name_label">Ім’я</string>
+    <string name="birth_date_label">Дата народження</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Скасувати</string>
+    <string name="more_options">Інші параметри</string>
+    <string name="menu_add">Додати</string>
+    <string name="menu_edit">Редагувати</string>
+    <string name="menu_delete">Видалити</string>
+    <string name="menu_change_language">Змінити мову</string>
+    <string name="menu_options">Налаштування</string>
+    <string name="settings_language">Мова</string>
+    <string name="settings_theme">Тема</string>
+    <string name="theme_system">Як у системі</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="add_person_title">Додати людину</string>
+    <string name="edit_person">Редагувати дані</string>
+    <string name="back">Назад</string>
+    <string name="delete_confirm">Видалити: %1$s?</string>
+    <string name="delete_person">Видалити людину</string>
+    <string name="notification_channel_name">Найближчі дні народження</string>
+    <string name="notification_channel_description">Нагадування, коли до дня народження залишається 10 днів або менше</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[<b>%2$s</b>: через %1$s виповниться %3$s]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b>%2$s</b>: <b><font color="%4$s">завтра</font></b> виповниться %3$s]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b>%2$s</b>: <b><font color="%4$s">сьогодні</font></b> виповнюється %3$s]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> день]]></item>
+        <item quantity="few"><![CDATA[<b>%d</b> дні]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b> днів]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> дня]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> рік]]></item>
+        <item quantity="few"><![CDATA[<b>%d</b> роки]]></item>
+        <item quantity="many"><![CDATA[<b>%d</b> років]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> року]]></item>
+    </plurals>
+</resources>
