@@ -15,6 +15,10 @@ Remembirth includes 31 languages. The translations were made using AI so some tr
 
 <img width="480" height="854" alt="language" src="https://github.com/user-attachments/assets/c2ed8a5b-ba26-47cf-ac5c-20b4efa8dd01" />
 
+## 🚀 Run it
+
+Just go to [Releases](https://github.com/juanjo995/Remembirth/releases), download the **.apk** and install it on your phone.
+
 ## Building
 
 1. Clone the repository and open it in a recent version of **Android Studio**.
