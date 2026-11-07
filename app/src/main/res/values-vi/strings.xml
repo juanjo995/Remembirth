@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Chọn ngôn ngữ</string>
+    <string name="language_selection_subtitle">Chọn ngôn ngữ bạn muốn dùng trong Remembirth.</string>
+    <string name="continue_button">Tiếp tục</string>
+    <string name="add_person_button">Thêm người</string>
+    <string name="name_label">Tên</string>
+    <string name="birth_date_label">Ngày sinh</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Hủy</string>
+    <string name="more_options">Tùy chọn khác</string>
+    <string name="menu_add">Thêm</string>
+    <string name="menu_edit">Sửa</string>
+    <string name="menu_delete">Xóa</string>
+    <string name="menu_change_language">Đổi ngôn ngữ</string>
+    <string name="menu_options">Tùy chọn</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_theme">Giao diện</string>
+    <string name="theme_system">Theo hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="add_person_title">Thêm người</string>
+    <string name="edit_person">Sửa thông tin</string>
+    <string name="back">Quay lại</string>
+    <string name="delete_confirm">Xóa %1$s?</string>
+    <string name="delete_person">Xóa người</string>
+    <string name="notification_channel_name">Sinh nhật sắp tới</string>
+    <string name="notification_channel_description">Nhắc nhở khi còn 10 ngày hoặc ít hơn đến sinh nhật</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[Còn %1$s nữa <b>%2$s</b> tròn %3$s]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">Ngày mai</font></b> <b>%2$s</b> tròn %3$s]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">Hôm nay</font></b> <b>%2$s</b> tròn %3$s]]></string>
+    <plurals name="days_phrase">
+        <item quantity="other"><![CDATA[<b>%d</b> ngày]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="other"><![CDATA[<b>%d</b> tuổi]]></item>
+    </plurals>
+</resources>

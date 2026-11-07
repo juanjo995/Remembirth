@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_selection_title">Alege limba</string>
+    <string name="language_selection_subtitle">Selectează limba pe care vrei să o folosești în Remembirth.</string>
+    <string name="continue_button">Continuă</string>
+    <string name="add_person_button">Adaugă o persoană</string>
+    <string name="name_label">Nume</string>
+    <string name="birth_date_label">Data nașterii</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Anulează</string>
+    <string name="more_options">Mai multe opțiuni</string>
+    <string name="menu_add">Adaugă</string>
+    <string name="menu_edit">Editează</string>
+    <string name="menu_delete">Șterge</string>
+    <string name="menu_change_language">Schimbă limba</string>
+    <string name="menu_options">Opțiuni</string>
+    <string name="settings_language">Limbă</string>
+    <string name="settings_theme">Temă</string>
+    <string name="theme_system">Prestabilită de sistem</string>
+    <string name="theme_light">Luminoasă</string>
+    <string name="theme_dark">Întunecată</string>
+    <string name="add_person_title">Adaugă o persoană</string>
+    <string name="edit_person">Editează persoana</string>
+    <string name="back">Înapoi</string>
+    <string name="delete_confirm">Ștergi %1$s?</string>
+    <string name="delete_person">Șterge o persoană</string>
+    <string name="notification_channel_name">Zile de naștere apropiate</string>
+    <string name="notification_channel_description">Mementouri când mai sunt 10 zile sau mai puțin până la o zi de naștere</string>
+
+    <!-- Frase de cada cumpleaños (lista y notificaciones).
+         %1$s = "N días" (plurals days_phrase), %2$s = nombre, %3$s = "N años" (plurals age_phrase),
+         %4$s = color de la palabra Hoy/Mañana (lo pone el código).
+         <b> = negrita. CDATA permite escribir las etiquetas tal cual. -->
+    <string name="birthday_in_days"><![CDATA[Peste %1$s <b>%2$s</b> împlinește %3$s]]></string>
+    <string name="birthday_tomorrow"><![CDATA[<b><font color="%4$s">Mâine</font></b> <b>%2$s</b> împlinește %3$s]]></string>
+    <string name="birthday_today"><![CDATA[🎉 <b><font color="%4$s">Astăzi</font></b> <b>%2$s</b> împlinește %3$s]]></string>
+    <plurals name="days_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> zi]]></item>
+        <item quantity="few"><![CDATA[<b>%d</b> zile]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> de zile]]></item>
+    </plurals>
+    <plurals name="age_phrase">
+        <item quantity="one"><![CDATA[<b>%d</b> an]]></item>
+        <item quantity="few"><![CDATA[<b>%d</b> ani]]></item>
+        <item quantity="other"><![CDATA[<b>%d</b> de ani]]></item>
+    </plurals>
+</resources>
